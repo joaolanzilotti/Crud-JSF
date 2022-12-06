@@ -9,27 +9,34 @@
     <h:head>
         <title>JP Corporation</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <h:outputStylesheet library="css" name="file.css"/>
     </h:head>
     <h:body>
+
+        <p:graphicImage library="imagens" name="logo.jpg" width="200px" height="100px" />
+
         <h:form id="form">
-            <h:panelGrid columns="2">
-                <p:outputLabel value="Nome" />
-                <p:inputText value="#{userMB.user.name}" />
-                <p:outputLabel value="E-mail" />
-                <p:inputText value="#{userMB.user.email}" />
-                <p:outputLabel/>
-                <p:commandButton value="Adicionar" action="#{userMB.addUser()}" update="form tabelaPessoa" />
-            </h:panelGrid>
+            <h1>Informações de Cadastro</h1>
+            <p:panel header="Cadastro de Clientes">
+                <h:panelGrid columns="2">
+                    <p:outputLabel value="Nome" />
+                    <p:inputText value="#{userMB.user.name}" size="50"/>
+                    <p:outputLabel value="E-mail" />
+                    <p:inputText value="#{userMB.user.email}" size="50"/>
+                    <p:outputLabel/>
+                    <p:commandButton value="Adicionar" action="#{userMB.addUser()}" update="form tabelaPessoa" />
+                </h:panelGrid>
+            </p:panel>
         </h:form>
-        
+
         <h1>Lista de Pessoas</h1>
         <p:dataTable value="#{userMB.listUsers}" var="lp" id="tabelaPessoa">
             <p:column headerText="Nome">#{lp.name}</p:column>
             <p:column headerText="E-mail">#{lp.email}</p:column>
-            <p:column headerText="Editar">
+            <p:column headerText="Editar" width="60">
                 <p:button value="Editar" outcome="/pages/sucesso.xhtml?parametro=#{lp.name}" />
             </p:column>
         </p:dataTable>
-        
+
     </h:body>
 </html>
