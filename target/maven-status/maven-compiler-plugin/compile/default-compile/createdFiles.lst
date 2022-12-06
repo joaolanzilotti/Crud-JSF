@@ -1,2 +1,3 @@
-com\jpcorporation\projetocrudjsfprimefaces\JakartaRestConfiguration.class
 com\jpcorporation\projetocrudjsfprimefaces\resources\JakartaEE8Resource.class
+com\jpcorporation\projetocrudjsfprimefaces\model\User.class
+com\jpcorporation\projetocrudjsfprimefaces\JakartaRestConfiguration.class
