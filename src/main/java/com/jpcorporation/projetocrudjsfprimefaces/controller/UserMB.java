@@ -21,7 +21,7 @@ public class UserMB implements Serializable{
     public String addUser(){
         listUsers.add(user);
         limpar();
-    return null;
+    return "pages/sucesso";
     }
     
     private void limpar(){
