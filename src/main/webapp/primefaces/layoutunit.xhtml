@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:f="http://xmlns.jcp.org/jsf/core"
+      xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+      xmlns:p="http://primefaces.org/ui">
+    <h:head>
+        <title>Treinamento JSF e PrimeFaces</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <h:outputStylesheet library="css" name="file.css"/>
+    </h:head>
+    <h:body>  
+        <h1>Layout Unit</h1>
+        <div class="card">
+    <h4 class="mt-0">Menu</h4>
+    <p:tabMenu activeIndex="#{param.i}" style="width:15rem" orientation="left">
+        <p:menuitem value="Home" icon="pi pi-fw pi-home">
+            <f:param name="i" value="0"/>
+        </p:menuitem>
+        <p:menuitem value="Cadastro" icon="pi pi-plus-circle">
+            <f:param name="i" value="1"/>
+        </p:menuitem>
+        <p:menuitem value="Consulta" icon="pi pi-search">
+            <f:param name="i" value="2"/>
+        </p:menuitem>
+        <p:menuitem value="Sair" icon="pi pi-fw pi-file">
+            <f:param name="i" value="3"/>
+        </p:menuitem>
+    </p:tabMenu>
+</div>
+    </h:body>
+</html>
