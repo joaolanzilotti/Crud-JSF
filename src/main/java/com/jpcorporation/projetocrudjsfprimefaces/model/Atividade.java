@@ -12,14 +12,16 @@ public class Atividade implements Serializable{
     
     private Long id;
     private String name;
+    private TipoAtividade tipoAtividade;
 
     public Atividade() {
     }
 
-    public Atividade(Long id, String name) {
+    public Atividade(Long id, String name, TipoAtividade tipoAtividade) {
         this.id = id;
         this.name = name;
-    }
+        this.tipoAtividade = tipoAtividade;
+    } 
 
     @Override
     public int hashCode() {
