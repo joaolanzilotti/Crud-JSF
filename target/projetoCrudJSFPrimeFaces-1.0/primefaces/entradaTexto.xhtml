@@ -21,7 +21,13 @@
             <p:panelGrid columns="2">
                 <p:outputLabel value="Nome" for="name" />
                 
-                <p:inputText id="name" required="true" requiredMessage="O Nome é Obrigatório!" />
+                <p:inputText id="name" 
+                             required="true" 
+                             requiredMessage="O Nome é Obrigatório!" 
+                             maxlength="10" 
+                             size="30" 
+                             placeholder="Insira seu Nome" 
+                             title="O Mouse está sob o componente" value="#{userMB.user.name}" />
             </p:panelGrid>
         </h:form>
     </h:body>
