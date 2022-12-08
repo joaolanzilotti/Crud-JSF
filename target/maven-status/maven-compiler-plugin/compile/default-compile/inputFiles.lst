@@ -1,7 +1,8 @@
-C:\Users\JoaoPedro\Documents\ProjetosJSF\Crud-JSF\src\main\java\com\jpcorporation\projetocrudjsfprimefaces\JakartaRestConfiguration.java
-C:\Users\JoaoPedro\Documents\ProjetosJSF\Crud-JSF\src\main\java\com\jpcorporation\projetocrudjsfprimefaces\model\TipoAtividade.java
-C:\Users\JoaoPedro\Documents\ProjetosJSF\Crud-JSF\src\main\java\com\jpcorporation\projetocrudjsfprimefaces\resources\JakartaEE8Resource.java
-C:\Users\JoaoPedro\Documents\ProjetosJSF\Crud-JSF\src\main\java\com\jpcorporation\projetocrudjsfprimefaces\controller\UserMB.java
-C:\Users\JoaoPedro\Documents\ProjetosJSF\Crud-JSF\src\main\java\com\jpcorporation\projetocrudjsfprimefaces\model\Atividade.java
-C:\Users\JoaoPedro\Documents\ProjetosJSF\Crud-JSF\src\main\java\com\jpcorporation\projetocrudjsfprimefaces\controller\AtividadeMB.java
-C:\Users\JoaoPedro\Documents\ProjetosJSF\Crud-JSF\src\main\java\com\jpcorporation\projetocrudjsfprimefaces\model\User.java
+C:\Users\joaoferretti\Documents\ProjetosJsfPrimeFaces\projetoCrudJSFPrimeFaces\src\main\java\com\jpcorporation\projetocrudjsfprimefaces\model\User.java
+C:\Users\joaoferretti\Documents\ProjetosJsfPrimeFaces\projetoCrudJSFPrimeFaces\src\main\java\com\jpcorporation\projetocrudjsfprimefaces\controller\AtividadeMB.java
+C:\Users\joaoferretti\Documents\ProjetosJsfPrimeFaces\projetoCrudJSFPrimeFaces\src\main\java\com\jpcorporation\projetocrudjsfprimefaces\controller\UserMB.java
+C:\Users\joaoferretti\Documents\ProjetosJsfPrimeFaces\projetoCrudJSFPrimeFaces\src\main\java\com\jpcorporation\projetocrudjsfprimefaces\model\Atividade.java
+C:\Users\joaoferretti\Documents\ProjetosJsfPrimeFaces\projetoCrudJSFPrimeFaces\src\main\java\com\jpcorporation\projetocrudjsfprimefaces\model\TipoAtividade.java
+C:\Users\joaoferretti\Documents\ProjetosJsfPrimeFaces\projetoCrudJSFPrimeFaces\src\main\java\com\jpcorporation\projetocrudjsfprimefaces\resources\JakartaEE8Resource.java
+C:\Users\joaoferretti\Documents\ProjetosJsfPrimeFaces\projetoCrudJSFPrimeFaces\src\main\java\com\jpcorporation\projetocrudjsfprimefaces\controller\ClienteMB.java
+C:\Users\joaoferretti\Documents\ProjetosJsfPrimeFaces\projetoCrudJSFPrimeFaces\src\main\java\com\jpcorporation\projetocrudjsfprimefaces\JakartaRestConfiguration.java
