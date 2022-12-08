@@ -1,4 +1,7 @@
-com\jpcorporation\projetocrudjsfprimefaces\resources\JakartaEE8Resource.class
 com\jpcorporation\projetocrudjsfprimefaces\model\User.class
+com\jpcorporation\projetocrudjsfprimefaces\model\Atividade.class
 com\jpcorporation\projetocrudjsfprimefaces\JakartaRestConfiguration.class
+com\jpcorporation\projetocrudjsfprimefaces\model\TipoAtividade.class
+com\jpcorporation\projetocrudjsfprimefaces\controller\AtividadeMB.class
+com\jpcorporation\projetocrudjsfprimefaces\resources\JakartaEE8Resource.class
 com\jpcorporation\projetocrudjsfprimefaces\controller\UserMB.class
