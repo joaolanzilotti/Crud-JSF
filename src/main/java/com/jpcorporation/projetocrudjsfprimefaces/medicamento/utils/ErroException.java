@@ -1,5 +1,5 @@
 
-package com.jpcorporation.projetocrudjsfprimefaces.utils;
+package com.jpcorporation.projetocrudjsfprimefaces.medicamento.utils;
 
 
 public class ErroException extends Exception{

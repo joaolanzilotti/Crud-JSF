@@ -1,5 +1,5 @@
 
-package com.jpcorporation.projetocrudjsfprimefaces.dao;
+package com.jpcorporation.projetocrudjsfprimefaces.medicamento.dao;
 
 import com.jpcorporation.projetocrudjsfprimefaces.medicamento.model.Base;
 import java.io.Serializable;

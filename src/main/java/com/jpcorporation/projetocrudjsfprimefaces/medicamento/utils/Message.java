@@ -1,5 +1,5 @@
 
-package com.jpcorporation.projetocrudjsfprimefaces.utils;
+package com.jpcorporation.projetocrudjsfprimefaces.medicamento.utils;
 
 import javax.faces.application.FacesMessage;
 import javax.faces.context.FacesContext;

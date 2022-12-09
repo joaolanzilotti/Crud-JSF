@@ -1,8 +1,8 @@
-package com.jpcorporation.projetocrudjsfprimefaces.service;
+package com.jpcorporation.projetocrudjsfprimefaces.medicamento.service;
 
-import com.jpcorporation.projetocrudjsfprimefaces.dao.DAO;
+import com.jpcorporation.projetocrudjsfprimefaces.medicamento.dao.DAO;
 import com.jpcorporation.projetocrudjsfprimefaces.medicamento.model.Medicamento;
-import com.jpcorporation.projetocrudjsfprimefaces.utils.ErroException;
+import com.jpcorporation.projetocrudjsfprimefaces.medicamento.utils.ErroException;
 import java.io.Serializable;
 import java.util.List;
 import javax.inject.Inject;

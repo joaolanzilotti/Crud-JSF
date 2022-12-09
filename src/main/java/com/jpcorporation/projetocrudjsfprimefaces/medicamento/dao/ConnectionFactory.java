@@ -1,5 +1,5 @@
 
-package com.jpcorporation.projetocrudjsfprimefaces.dao;
+package com.jpcorporation.projetocrudjsfprimefaces.medicamento.dao;
 
 import javax.persistence.EntityManager;
 import javax.persistence.EntityManagerFactory;
