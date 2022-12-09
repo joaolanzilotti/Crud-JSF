@@ -11,6 +11,17 @@
             <p:panelGrid columns="2">
                 <p:outputLabel value="Medicamento"/>
                 <p:inputText value="#{medicamentoMB.medicamento.name}" size="30" required="true" label="Medicamento"/>
+                
+                <p:outputLabel value="Apresentação"/>
+                <p:inputText value="#{medicamentoMB.medicamento.apresentacao}" size="30" required="true" label="Apresentação"/>
+                
+                <p:outputLabel value="Laboratório"/>
+                <p:selectOneMenu value="#{medicamentoMB.medicamento.laboratorio}" rendered="true" label="Laboratório">
+                    <f:selectItem itemLabel="Selecione o Laboratório" noSelectionOption="true"
+                </p:selectOneMenu>
+                
+                <p:outputLabel value="Apresentação"/>
+                <p:inputText value="#{medicamentoMB.medicamento.apresentacao}" size="30" required="true" label="Apresentação"/>
             </p:panelGrid>
         </h:form>
         
